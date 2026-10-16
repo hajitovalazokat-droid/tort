@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baked Groovy | Cakes & Desserts</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'DM Sans', sans-serif; }
+    h1, h2 { font-family: 'Playfair Display', serif; }
+    html { scroll-behavior: smooth; }
+    .cake-card { transition: transform .25s, box-shadow .25s; }
+    .cake-card:hover { transform: translateY(-5px); box-shadow: 0 12px 28px #7c4a3b18; }
+  </style>
+</head>
+<body class="bg-[#fffaf6] text-[#38251f]">
+
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-[#f0dfd5]">
+  <nav class="max-w-7xl mx-auto px-5 py-4 flex items-center justify-between gap-4">
+    <a href="#" class="text-2xl font-extrabold leading-tight">
+      🎂 Baked <span class="text-[#bd777e]">Groovy</span>
+      <span class="block text-[9px] tracking-[4px] font-semibold text-[#8b7167]">CAKES · DESSERTS · MORE</span>
+    </a>
+    <div class="hidden md:flex items-center gap-7 text-sm font-semibold">
+      <a href="#" class="hover:text-[#bd777e]">Bosh sahifa</a>
+      <a href="#tortlar" class="hover:text-[#bd777e]">Tortlar</a>
+      <a href="#desertlar" class="hover:text-[#bd777e]">Shirinliklar</a>
+      <a href="#ichimliklar" class="hover:text-[#bd777e]">Ichimliklar</a>
+      <a href="#aloqa" class="hover:text-[#bd777e]">Aloqa</a>
+    </div>
+    <a href="#aloqa" class="rounded-full bg-[#39231f] text-white px-5 py-3 text-sm font-bold hover:bg-[#68453b]">Buyurtma berish ↗</a>
+  </nav>
+</header>
+
+<main>
+  <section class="max-w-7xl mx-auto px-4 pt-5">
+    <div class="relative min-h-[390px] md:min-h-[460px] overflow-hidden rounded-[28px] bg-[#38251f]">
+      <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1800&q=85"
+        class="absolute inset-0 w-full h-full object-cover" alt="Baked Groovy bayram torti">
+      <div class="absolute inset-0 bg-gradient-to-r from-[#241613]/95 via-[#38251f]/65 to-transparent"></div>
+      <div class="relative z-10 flex min-h-[390px] md:min-h-[460px] items-center p-7 md:p-16">
+        <div class="max-w-xl text-white">
+          <p class="text-[#f5c7bd] tracking-widest text-xs md:text-sm font-bold uppercase mb-4">Har bir tort — alohida hikoya</p>
+          <h1 class="text-4xl md:text-6xl font-bold leading-tight">Shirin lahzalar uchun <span class="text-[#f3c0bd]">Baked Groovy</span></h1>
+          <p class="mt-5 text-sm md:text-base text-white/85 max-w-md">Tortlar, nafis desertlar va sizning eng muhim kunlaringiz uchun maxsus ta’mlar.</p>
+          <a href="#tortlar" class="inline-block mt-7 rounded-full bg-[#f3c3c2] text-[#38251f] px-7 py-3.5 font-bold hover:bg-white">Menyuni ko‘rish ↓</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 py-7">
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
+      <a href="#tortlar" class="rounded-2xl bg-[#f9dfdc] p-4 text-center font-bold">🎂<span class="block mt-2">Tortlar</span></a>
+      <a href="#desertlar" class="rounded-2xl bg-white border border-[#f0e1d7] p-4 text-center font-bold">🧁<span class="block mt-2">Keklar</span></a>
+      <a href="#desertlar" class="rounded-2xl bg-white border border-[#f0e1d7] p-4 text-center font-bold">🍰<span class="block mt-2">Desertlar</span></a>
+      <a href="#desertlar" class="rounded-2xl bg-white border border-[#f0e1d7] p-4 text-center font-bold">🍪<span class="block mt-2">Shirinliklar</span></a>
+      <a href="#ichimliklar" class="rounded-2xl bg-white border border-[#f0e1d7] p-4 text-center font-bold">☕<span class="block mt-2">Ichimliklar</span></a>
+    </div>
+  </section>
+
+  <section id="tortlar" class="max-w-7xl mx-auto px-4 py-5">
+    <div class="flex items-end justify-between mb-5">
+      <div><p class="text-xs uppercase tracking-[3px] text-[#bd777e] font-bold">Bizning maxsus ta’mlar</p><h2 class="text-3xl md:text-4xl mt-2">Tortlar</h2></div>
+      <span class="text-sm text-[#8e756b]">Yangi va mazali ↗</span>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <article class="cake-card rounded-2xl bg-white p-3 border border-[#f0e2d9]">
+        <img class="w-full aspect-square object-cover rounded-xl" src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=500&q=80" alt="Shokoladli tort">
+        <h3 class="font-bold mt-3">Shokoladli tort</h3><p class="text-xs text-[#927b71] mt-1">Klassik ta’m · 1 kg</p>
+        <div class="flex justify-between items-center mt-3"><b>250 000 so‘m</b><a href="#aloqa" class="bg-[#f4c1b9] rounded-full w-9 h-9 grid place-items-center text-xl">+</a></div>
+      </article>
+      <article class="cake-card rounded-2xl bg-white p-3 border border-[#f0e2d9]">
+        <img class="w-full aspect-square object-cover rounded-xl" src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=500&q=80" alt="Mevali tort">
+        <h3 class="font-bold mt-3">Mevali tort</h3><p class="text-xs text-[#927b71] mt-1">Mevalar bilan · 1 kg</p>
+        <div class="flex justify-between items-center mt-3"><b>230 000 so‘m</b><a href="#aloqa" class="bg-[#f4c1b9] rounded-full w-9 h-9 grid place-items-center text-xl">+</a></div>
+      </article>
+      <article class="cake-card rounded-2xl bg-white p-3 border border-[#f0e2d9]">
+        <img class="w-full aspect-square object-cover rounded-xl" src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=500&q=80" alt="Red Velvet">
+        <h3 class="font-bold mt-3">Red Velvet</h3><p class="text-xs text-[#927b71] mt-1">Nozik krem · 1 kg</p>
+        <div class="flex justify-between items-center mt-3"><b>270 000 so‘m</b><a href="#aloqa" class="bg-[#f4c1b9] rounded-full w-9 h-9 grid place-items-center text-xl">+</a></div>
+      </article>
+      <article class="cake-card rounded-2xl bg-white p-3 border border-[#f0e2d9]">
+        <img class="w-full aspect-square object-cover rounded-xl" src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=500&q=80" alt="Cheesecake">
+        <h3 class="font-bold mt-3">Cheesecake</h3><p class="text-xs text-[#927b71] mt-1">Mayin va mazali</p>
+        <div class="flex justify-between items-center mt-3"><b>230 000 so‘m</b><a href="#aloqa" class="bg-[#f4c1b9] rounded-full w-9 h-9 grid place-items-center text-xl">+</a></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="desertlar" class="max-w-7xl mx-auto px-4 py-8">
+    <div class="flex items-end justify-between mb-5"><h2 class="text-3xl md:text-4xl">Desertlar</h2><span class="text-sm text-[#8e756b]">Har bir luqma — zavq</span></div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <article class="cake-card rounded-2xl bg-white p-3 border border-[#f0e2d9]"><img class="w-full aspect-square object-cover rounded-xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuZHGTrnd_dldYiKlLh9qWFQHxa8Ll2tUmuezkdm5wTg&s=10" alt="Shirin pishiriq"><h3 class="font-bold mt-3">Shirin pishiriq</h3><p class="text-sm text-[#927b71]">1 dona</p><b class="block mt-3">25 000 so‘m</b></article>
+      <article class="cake-card rounded-2xl bg-white p-3 border border-[#f0e2d9]"><img class="w-full aspect-square object-cover rounded-xl" src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=500&q=80" alt="Tiramisu"><h3 class="font-bold mt-3">Tiramisu</h3><p class="text-sm text-[#927b71]">1 dona</p><b class="block mt-3">30 000 so‘m</b></article>
+      <article class="cake-card rounded-2xl bg-white p-3 border border-[#f0e2d9]"><img class="w-full aspect-square object-cover rounded-xl" src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=500&q=80" alt="Panna cotta"><h3 class="font-bold mt-3">Panna Cotta</h3><p class="text-sm text-[#927b71]">1 dona</p><b class="block mt-3">28 000 so‘m</b></article>
+      <article class="cake-card rounded-2xl bg-white p-3 border border-[#f0e2d9]"><img class="w-full aspect-square object-cover rounded-xl" src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=500&q=80" alt="Brownie"><h3 class="font-bold mt-3">Brownie</h3><p class="text-sm text-[#927b71]">1 dona</p><b class="block mt-3">22 000 so‘m</b></article>
+    </div>
+  </section>
+
+  <section id="ichimliklar" class="max-w-7xl mx-auto px-4 py-6">
+    <h2 class="text-3xl md:text-4xl mb-5">Ichimliklar</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <article class="cake-card rounded-2xl bg-white p-3 border border-[#f0e2d9]"><img class="w-full aspect-square object-cover rounded-xl" src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=500&q=80" alt="Amerikano"><h3 class="font-bold mt-3">Amerikano</h3><b class="block mt-2">20 000 so‘m</b></article>
+      <article class="cake-card rounded-2xl bg-white p-3 border border-[#f0e2d9]"><img class="w-full aspect-square object-cover rounded-xl" src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=500&q=80" alt="Latte"><h3 class="font-bold mt-3">Latte</h3><b class="block mt-2">25 000 so‘m</b></article>
+      <article class="cake-card rounded-2xl bg-white p-3 border border-[#f0e2d9]"><img class="w-full aspect-square object-cover rounded-xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCZKg3w69mMmom1sonjC6K-sVJvx99WCHPGMuzUpz4n-EK-eCIQmNU9h99&s=10" alt="Issiq shokolad"><h3 class="font-bold mt-3">Issiq shokolad</h3><b class="block mt-2">25 000 so‘m</b></article>
+      <article class="cake-card rounded-2xl bg-white p-3 border border-[#f0e2d9]"><img class="w-full aspect-square object-cover rounded-xl" src="https://www.harney.com/cdn/shop/files/brew-green-tea.jpg?v=1612990930&width=1000" alt="Yashil choy"><h3 class="font-bold mt-3">Yashil choy</h3><b class="block mt-2">12 000 so‘m</b></article>
+    </div>
+  </section>
+</main>
+
+<footer id="aloqa" class="mt-10 bg-[#39231f] text-white">
+  <div class="max-w-7xl mx-auto px-5 py-9 grid md:grid-cols-3 gap-7">
+    <div><h2 class="text-2xl">Baked Groovy ♡</h2><p class="text-sm text-white/70 mt-3">Maxsus kunlaringiz uchun tortlar va shirinliklar.</p></div>
+    <div><h3 class="font-bold">Bog‘lanish</h3><p class="text-sm mt-3">Telefon: +998 95 058 13 71</p><p class="text-sm mt-2">Instagram: @baked_groovy</p><p class="text-sm mt-2">Toshkent, Yashnobod</p></div>
+    <div><h3 class="font-bold">Buyurtma berish</h3><p class="text-sm text-white/70 mt-2">Tort va shirinliklar bo‘yicha bizga yozing.</p><a href="https://www.instagram.com/baked_groovy/" target="_blank" class="inline-block mt-4 bg-[#f3c3c2] text-[#39231f] rounded-full px-5 py-3 font-bold">Instagram orqali ↗</a></div>
+  </div>
+  <div class="text-center text-xs text-white/50 border-t border-white/10 py-4">© 2026 Baked Groovy · Demo website</div>
+</footer>
+</body>
+</html>
